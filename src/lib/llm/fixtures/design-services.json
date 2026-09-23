@@ -1,0 +1,70 @@
+{
+  "isContract": true,
+  "contractTitle": "Harbor & Pine brand identity agreement",
+  "summary": "This is a fairly balanced design contract. You get a 50% deposit, 15-day payment terms, a kill fee through the termination clause, and you keep your unused concepts and portfolio rights. The main things to tighten are an unlimited-seeming revision loop on scope and making sure the liability cap covers you too.",
+  "findings": [
+    {
+      "category": "payment_terms",
+      "clauseText": "Client will pay a non-refundable deposit of 50% ($3,400) before work begins, and the remaining 50% upon delivery of the final files.",
+      "locationHint": "Section 2",
+      "riskLevel": "low",
+      "riskExplanation": "You're paid half up front and half on delivery. That's a fair structure, but \"delivery\" could be read as the moment you send files, before the client approves them.",
+      "whyItMatters": "",
+      "suggestedRedline": "Client will pay the remaining 50% within fifteen (15) days of Designer's delivery of the final files, whether or not Client has launched the brand."
+    },
+    {
+      "category": "ip_ownership",
+      "clauseText": "Upon Designer's receipt of full payment, Designer assigns to Client all rights, title, and interest in the final, approved Deliverables.",
+      "locationHint": "Section 4",
+      "riskLevel": "low",
+      "riskExplanation": "Ownership only transfers after you're fully paid, which protects you. The client gets only the final approved work, not your drafts.",
+      "whyItMatters": "",
+      "suggestedRedline": "Upon Designer's receipt of full payment, Designer assigns to Client all rights, title, and interest in the final, approved Deliverables. Until then, Client has no right to use the Deliverables."
+    },
+    {
+      "category": "termination",
+      "clauseText": "If Client terminates before completion, Client will pay for all work performed through the termination date at Designer's hourly rate, and in any case not less than the deposit.",
+      "locationHint": "Section 5",
+      "riskLevel": "low",
+      "riskExplanation": "If the client ends the project early, you're paid for the work you've done and keep at least the deposit. This is a good clause for you.",
+      "whyItMatters": "",
+      "suggestedRedline": "If Client terminates before completion, Client will pay for all work performed through the termination date at Designer's hourly rate of $95, and in any case not less than the deposit."
+    },
+    {
+      "category": "liability",
+      "clauseText": "Each party's total liability under this Agreement is limited to the total project fee, except for a party's indemnification obligations for its own willful misconduct.",
+      "locationHint": "Section 6",
+      "riskLevel": "low",
+      "riskExplanation": "Both sides' liability is capped at the project fee, which is mutual and reasonable for a project this size.",
+      "whyItMatters": "",
+      "suggestedRedline": "Each party's total liability under this Agreement is limited to the total project fee actually paid, except for a party's willful misconduct."
+    },
+    {
+      "category": "payment_terms",
+      "clauseText": "The project includes up to two (2) rounds of revisions per Deliverable. Additional revisions will be billed at $95 per hour.",
+      "locationHint": "Section 1",
+      "riskLevel": "low",
+      "riskExplanation": "Revisions are capped and extra rounds are paid, which protects you from endless changes.",
+      "whyItMatters": "",
+      "suggestedRedline": "The project includes up to two (2) rounds of revisions per Deliverable. Additional revisions will be billed at $95 per hour, with an estimate provided in advance."
+    },
+    {
+      "category": "non_compete",
+      "clauseText": "During the project and for six (6) months afterward, neither party will solicit for employment any employee of the other party who worked on the project.",
+      "locationHint": "Section 7",
+      "riskLevel": "low",
+      "riskExplanation": "Neither side can try to hire the other's staff for six months. It's mutual and doesn't stop you from working for anyone.",
+      "whyItMatters": "",
+      "suggestedRedline": "During the project and for six (6) months afterward, neither party will solicit for employment any employee of the other party who worked on the project. General job postings are not solicitation."
+    },
+    {
+      "category": "jurisdiction",
+      "clauseText": "If unresolved, either party may bring a claim in the state or federal courts located in Multnomah County, Oregon, or in small claims court where eligible.",
+      "locationHint": "Section 8",
+      "riskLevel": "low",
+      "riskExplanation": "Disputes start with a 30-day good-faith talk, then go to local courts or small claims. That's accessible and fair if you're based in Oregon.",
+      "whyItMatters": "",
+      "suggestedRedline": "If unresolved, either party may bring a claim in the courts of the county where Designer resides, or in small claims court where eligible."
+    }
+  ]
+}

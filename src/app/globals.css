@@ -1,0 +1,239 @@
+@import "tailwindcss";
+
+/*
+ * ClauseGuard tokens. Rationale and contrast ratios: design-system/clauseguard/DECISIONS.md
+ * Radius system: 2px everywhere; full pill ONLY for risk badges.
+ */
+
+:root {
+  --paper: #faf8f3;
+  --paper-2: #f1eee6; /* recessed surfaces, desk behind the sheet */
+  --sheet: #fffdf8; /* the document itself */
+  --ink: #14161a;
+  --ink-2: #2b2e34;
+  --muted: #53575e;
+  --rule: #ddd8cc; /* hairlines (decorative) */
+  --rule-strong: #8c8578; /* input borders, 3:1+ against paper */
+  --accent: #1f2a44;
+  --accent-ink: #faf8f3;
+  --accent-soft: #e4e7ee;
+  --focus: #1f2a44;
+
+  --high: #8c2119;
+  --high-mark: #c4453c;
+  --high-tint: #f6e3e0;
+  --medium: #634210;
+  --medium-mark: #b8863a;
+  --medium-tint: #f5ebd7;
+  --low: #21513b;
+  --low-mark: #2f6b4f;
+  --low-tint: #e1eee6;
+
+  --sheet-shadow: 0 1px 0 rgb(20 22 26 / 0.04), 0 12px 32px -18px rgb(60 48 30 / 0.28);
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-sheet: var(--sheet);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-high: var(--high);
+  --color-high-mark: var(--high-mark);
+  --color-high-tint: var(--high-tint);
+  --color-medium: var(--medium);
+  --color-medium-mark: var(--medium-mark);
+  --color-medium-tint: var(--medium-tint);
+  --color-low: var(--low);
+  --color-low-mark: var(--low-mark);
+  --color-low-tint: var(--low-tint);
+
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Source Serif 4 Variable", "Source Serif 4", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --radius-xs: 2px;
+  --shadow-sheet: var(--sheet-shadow);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "kern", "liga";
+  }
+  ::selection {
+    background: var(--accent-soft);
+    color: var(--ink);
+  }
+  /* Visible, consistent focus everywhere (ui-ux.md section 4). */
+  :focus-visible {
+    outline: 3px solid var(--focus);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [role="tab"],
+  a[href],
+  label[for],
+  summary,
+  select {
+    cursor: pointer;
+  }
+  button:disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+}
+
+@layer components {
+  .skip-link {
+    position: absolute;
+    left: 0.75rem;
+    top: -3rem;
+    z-index: 50;
+    background: var(--accent);
+    color: var(--accent-ink);
+    padding: 0.5rem 0.875rem;
+    border-radius: 2px;
+    font-weight: 600;
+  }
+  .skip-link:focus {
+    top: 0.75rem;
+  }
+
+  /* Document typography: the contract always renders in the serif. */
+  .doc-text {
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--ink);
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
+    hyphens: manual;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 44px;
+    padding: 0 1.125rem;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    white-space: nowrap;
+    transition:
+      background-color 150ms ease-out,
+      color 150ms ease-out,
+      border-color 150ms ease-out,
+      transform 100ms ease-out;
+  }
+  .btn:active:not(:disabled) {
+    transform: translateY(1px);
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: var(--accent-ink);
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: color-mix(in oklab, var(--accent) 88%, var(--ink));
+  }
+  .btn-primary:disabled {
+    background: var(--rule);
+    color: var(--muted);
+  }
+  .btn-secondary {
+    border: 1px solid var(--rule-strong);
+    color: var(--ink);
+    background: transparent;
+  }
+  .btn-secondary:hover:not(:disabled) {
+    background: var(--paper-2);
+    border-color: var(--ink);
+  }
+  .btn-quiet {
+    color: var(--ink);
+    padding: 0 0.625rem;
+  }
+  .btn-quiet:hover:not(:disabled) {
+    background: var(--paper-2);
+  }
+
+  .field {
+    width: 100%;
+    background: var(--sheet);
+    color: var(--ink);
+    border: 1px solid var(--rule-strong);
+    border-radius: 2px;
+    padding: 0.625rem 0.75rem;
+    font-size: 1rem;
+    transition: border-color 150ms ease-out;
+  }
+  .field::placeholder {
+    color: var(--muted);
+  }
+  .field:hover {
+    border-color: var(--ink-2);
+  }
+
+  .hero-stage::before {
+    position: absolute;
+    inset: -20% 38% 18% -18%;
+    z-index: -1;
+    content: "";
+    background: radial-gradient(circle, rgb(182 106 76 / 0.12), transparent 66%);
+    pointer-events: none;
+  }
+
+  .hero-document {
+    border: 1px solid color-mix(in srgb, var(--rule-strong) 38%, transparent);
+    box-shadow: 0 1px 0 rgb(255 255 255 / 0.04), 0 24px 48px -28px rgb(0 0 0 / 0.7), 0 0 0 1px rgb(182 106 76 / 0.04);
+    background-image: repeating-linear-gradient(0deg, rgb(20 22 26 / 0.018) 0, rgb(20 22 26 / 0.018) 1px, transparent 1px, transparent 4px);
+  }
+
+  .document-sheet {
+    border: 1px solid color-mix(in srgb, var(--rule-strong) 34%, transparent);
+    box-shadow: var(--sheet-shadow), 0 0 0 1px rgb(182 106 76 / 0.035);
+    background-image: repeating-linear-gradient(0deg, rgb(60 48 30 / 0.014) 0, rgb(60 48 30 / 0.014) 1px, transparent 1px, transparent 4px);
+  }
+
+  .seal-hint {
+    border-color: var(--medium-mark);
+  }
+
+  .how-step {
+    min-height: 170px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes meter-in {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}

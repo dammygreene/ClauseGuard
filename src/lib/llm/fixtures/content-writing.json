@@ -1,0 +1,70 @@
+{
+  "isContract": true,
+  "contractTitle": "Brightline Media freelance writer agreement",
+  "summary": "Short contract, but it puts almost all the risk on you. You're only paid if and when the publisher decides to publish, it can cancel at any time without paying anything, and you'd have to cover legal claims caused by the publisher's own edits. Ask for payment on acceptance and a kill fee first.",
+  "findings": [
+    {
+      "category": "payment_terms",
+      "clauseText": "Payment will be made within thirty (30) days after the article is published on Publisher's website. Publisher is not obligated to publish any article, and no payment is owed for articles that Publisher decides not to publish.",
+      "locationHint": "Compensation",
+      "riskLevel": "high",
+      "riskExplanation": "You only get paid after publication, and the publisher can simply choose not to publish. That means you could write an article and never be paid for it.",
+      "whyItMatters": "Payment depends on a decision entirely outside your control.",
+      "suggestedRedline": "Publisher will pay Writer within thirty (30) days after accepting the article, whether or not Publisher publishes it. An article is deemed accepted if Publisher does not request revisions within fourteen (14) days of delivery."
+    },
+    {
+      "category": "payment_terms",
+      "clauseText": "Writer will make any revisions requested by Publisher's editors until the article is accepted.",
+      "locationHint": "Revisions",
+      "riskLevel": "medium",
+      "riskExplanation": "There's no limit on revision rounds, and since payment waits on acceptance, the editors could keep asking for changes indefinitely.",
+      "whyItMatters": "Unlimited revisions can quietly cut your effective rate in half.",
+      "suggestedRedline": "The fee includes up to two (2) rounds of reasonable revisions requested within fourteen (14) days of delivery. Further revisions or changes to the original assignment will be compensated at a rate agreed in writing."
+    },
+    {
+      "category": "ip_ownership",
+      "clauseText": "Each article is a work made for hire, and Publisher will own all rights in the article throughout the world, in all media now known or later developed, including the right to edit, adapt, and publish it under any byline or with no byline.",
+      "locationHint": "Rights",
+      "riskLevel": "medium",
+      "riskExplanation": "The publisher owns the article outright, forever, and can publish it under someone else's name or no name at all.",
+      "whyItMatters": "You might not get credit for work you can point to later.",
+      "suggestedRedline": "Upon full payment, Writer grants Publisher exclusive first publication rights for ninety (90) days and a non-exclusive license thereafter. Articles will be published under Writer's byline unless Writer agrees otherwise."
+    },
+    {
+      "category": "ip_ownership",
+      "clauseText": "Writer may not republish or excerpt the article anywhere.",
+      "locationHint": "Rights",
+      "riskLevel": "medium",
+      "riskExplanation": "You can't even quote a short excerpt of your own article in your portfolio or on social media.",
+      "whyItMatters": "",
+      "suggestedRedline": "Writer may excerpt up to 150 words of the article, with a link to the published version, in Writer's portfolio and professional profiles."
+    },
+    {
+      "category": "termination",
+      "clauseText": "Publisher may cancel any assignment at any time. If Publisher cancels an assignment, no fee is owed.",
+      "locationHint": "Cancellation",
+      "riskLevel": "high",
+      "riskExplanation": "The publisher can cancel an assignment even after you've finished writing it, and owes you nothing.",
+      "whyItMatters": "You could do all the research and writing and walk away with $0.",
+      "suggestedRedline": "Publisher may cancel an assignment on written notice. If Publisher cancels after Writer has begun work, Publisher will pay a kill fee of 50% of the article fee, or 100% if the article has already been delivered."
+    },
+    {
+      "category": "liability",
+      "clauseText": "Writer will indemnify Publisher against any claim arising from an article, including claims arising from edits made by Publisher.",
+      "locationHint": "Warranty and Indemnity",
+      "riskLevel": "high",
+      "riskExplanation": "You'd have to pay the publisher's costs if someone sues over an article, even if the problem was caused by the publisher's own edits.",
+      "whyItMatters": "A defamation claim caused by an editor's change could land on you personally.",
+      "suggestedRedline": "Writer will indemnify Publisher against third-party claims to the extent arising from material supplied by Writer, excluding any material added or changed by Publisher."
+    },
+    {
+      "category": "jurisdiction",
+      "clauseText": "Any dispute must be brought in the state or federal courts in New York County, New York.",
+      "locationHint": "Disputes",
+      "riskLevel": "medium",
+      "riskExplanation": "Any dispute has to be filed in Manhattan courts. If you don't live nearby, recovering a small unpaid fee becomes impractical.",
+      "whyItMatters": "Travel and legal costs could exceed the amount you're owed.",
+      "suggestedRedline": "Either party may bring a claim in small claims court in the county where the claimant resides, or otherwise in the state or federal courts in New York County, New York."
+    }
+  ]
+}

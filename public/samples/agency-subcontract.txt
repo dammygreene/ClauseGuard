@@ -1,0 +1,82 @@
+INDEPENDENT CONTRACTOR SERVICES AGREEMENT
+
+This Independent Contractor Services Agreement (the "Agreement") is entered into as of March 3, 2026 (the "Effective Date") by and between Northgate Digital Partners LLC, a Delaware limited liability company ("Company"), and Adaeze Okafor, an individual ("Contractor"). Company and Contractor are each a "Party" and together the "Parties."
+
+1. SERVICES
+
+1.1 Contractor will provide front-end and back-end software development services for Company's end clients as described in one or more Statements of Work ("SOW") issued by Company from time to time (the "Services").
+
+1.2 Company may modify the scope of any SOW at any time by written notice, including by email or project-management ticket. Contractor will perform any modified scope for the fees stated in the original SOW unless Company agrees otherwise in writing.
+
+2. FEES AND PAYMENT
+
+2.1 Company will pay Contractor the fees set out in the applicable SOW. Contractor will submit invoices monthly in arrears.
+
+2.2 Company will pay undisputed invoices within ninety (90) days after Company has received payment in full from the end client for the work covered by the invoice. If the end client does not pay Company for any reason, Company has no obligation to pay Contractor for the corresponding Services.
+
+2.3 Company may withhold or set off against any amount owed to Contractor any amount Company, in its sole discretion, believes Contractor owes Company, including amounts arising under Section 7.
+
+2.4 Contractor is responsible for all of Contractor's own expenses, equipment, software licenses, and taxes. No expenses will be reimbursed unless pre-approved in writing by Company.
+
+3. TERM AND TERMINATION
+
+3.1 This Agreement begins on the Effective Date and continues until terminated as provided in this Section 3.
+
+3.2 Company may terminate this Agreement or any SOW at any time, for any reason or no reason, effective immediately upon notice to Contractor. Upon such termination, Company will have no further payment obligation to Contractor, including for Services performed but not yet invoiced as of the termination date.
+
+3.3 Contractor may terminate this Agreement upon sixty (60) days' prior written notice to Company, provided that Contractor completes all work in progress under any open SOW before the termination takes effect.
+
+3.4 Upon termination for any reason, Contractor will immediately deliver to Company all work product, whether complete or incomplete, and all Company materials in Contractor's possession.
+
+4. INTELLECTUAL PROPERTY
+
+4.1 All work product, deliverables, code, designs, documentation, inventions, and other materials created, conceived, or developed by Contractor during the term of this Agreement, whether or not related to the Services and whether or not created during working hours or using Company resources (collectively, "Work Product"), will be the sole and exclusive property of Company and are deemed "works made for hire."
+
+4.2 To the extent any Work Product is not a work made for hire, Contractor hereby irrevocably assigns to Company all right, title, and interest in and to such Work Product, including all intellectual property rights therein. Contractor also assigns to Company all rights in any tools, libraries, frameworks, or other materials owned by Contractor before the Effective Date that are incorporated into any deliverable ("Pre-Existing Materials").
+
+4.3 Contractor irrevocably waives any moral rights in the Work Product and agrees not to display any Work Product in any portfolio, website, or other promotional material without Company's prior written consent.
+
+5. CONFIDENTIALITY
+
+5.1 Contractor will hold in confidence all non-public information disclosed by Company or its clients and will use such information only to perform the Services. This obligation survives termination of this Agreement for three (3) years.
+
+6. NON-COMPETITION AND NON-SOLICITATION
+
+6.1 During the term of this Agreement and for twenty-four (24) months after its termination, Contractor will not, directly or indirectly, provide software development or related services to any business that competes with Company anywhere in the world, or to any current or former client of Company, whether or not Contractor worked on that client's projects.
+
+6.2 During the term of this Agreement, Contractor will provide services exclusively to Company and will not accept other freelance or employment engagements without Company's prior written consent.
+
+7. INDEMNIFICATION AND LIABILITY
+
+7.1 Contractor will defend, indemnify, and hold harmless Company, its affiliates, clients, and their respective officers, members, and employees from and against any and all claims, losses, damages, liabilities, penalties, costs, and expenses (including attorneys' fees) arising out of or relating to the Services or this Agreement, regardless of whether such claims are caused in part by the negligence of Company or its clients.
+
+7.2 In no event will Company be liable to Contractor for any indirect, incidental, consequential, or lost-profit damages, and Company's total liability under this Agreement will not exceed the fees paid to Contractor in the one (1) month preceding the claim. Contractor's liability under this Agreement is not limited.
+
+8. INDEPENDENT CONTRACTOR STATUS
+
+8.1 Contractor is an independent contractor and not an employee, partner, or agent of Company. Contractor is not entitled to any employee benefits and is solely responsible for all taxes on amounts paid under this Agreement.
+
+9. GOVERNING LAW AND DISPUTE RESOLUTION
+
+9.1 This Agreement is governed by the laws of the State of Delaware, without regard to its conflict-of-laws principles.
+
+9.2 Any dispute arising out of or relating to this Agreement will be resolved exclusively by binding arbitration administered by the American Arbitration Association in Wilmington, Delaware, before a single arbitrator. Contractor waives any right to a jury trial and to participate in any class or collective action. Contractor will bear its own costs and fees and, if Company prevails, will reimburse Company's reasonable attorneys' fees and arbitration costs.
+
+10. GENERAL
+
+10.1 Notices under this Agreement must be in writing and may be delivered by email to the addresses set out in the applicable SOW.
+
+10.2 This Agreement, together with all SOWs, is the entire agreement between the Parties and supersedes all prior agreements relating to its subject matter. Company may amend this Agreement by posting an updated version or notifying Contractor by email; Contractor's continued performance of Services constitutes acceptance of the amendment.
+
+10.3 If any provision of this Agreement is held unenforceable, the remaining provisions will remain in full force and effect.
+
+IN WITNESS WHEREOF, the Parties have executed this Agreement as of the Effective Date.
+
+NORTHGATE DIGITAL PARTNERS LLC
+By: ____________________
+Name: Marcus Hale
+Title: Managing Partner
+
+CONTRACTOR
+Signature: ____________________
+Name: Adaeze Okafor

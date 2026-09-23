@@ -1,0 +1,37 @@
+INDEPENDENT CONTRACTOR SERVICES AGREEMENT
+
+This Agreement is between Northgate Digital Partners LLC ("Company") and Adaeze Okafor ("Contractor") for software development services beginning March 3, 2026.
+
+1. SERVICES AND PAYMENT
+
+Contractor will provide the development services described in each written Statement of Work ("SOW"). Any change to an SOW must be agreed in writing, including any change to fees or delivery dates.
+
+Company will pay Contractor the fees stated in the applicable SOW. Contractor will invoice monthly. Company will pay undisputed invoices within thirty (30) days after receipt, whether or not an end client has paid Company. Contractor's reasonable, pre-approved expenses will be reimbursed.
+
+2. TERM AND TERMINATION
+
+This Agreement continues until terminated. Either Party may terminate this Agreement or an SOW on fourteen (14) days' written notice. Company may terminate immediately for Contractor's material breach if Contractor does not cure the breach within five (5) days after written notice. On termination, Company will pay Contractor for all Services performed and approved expenses incurred through the termination date.
+
+3. INTELLECTUAL PROPERTY
+
+"Work Product" means the final deliverables Contractor creates specifically for Company under an SOW. Upon Company's payment in full, Contractor assigns Company all rights in the Work Product. Contractor retains ownership of pre-existing tools, libraries, frameworks, and materials, and grants Company a non-exclusive license to use them only as incorporated into the Work Product. Contractor may display non-confidential Work Product in a portfolio after Company publicly releases it.
+
+4. CONFIDENTIALITY AND EXCLUSIVITY
+
+Contractor will protect Company's non-public information and use it only to perform the Services. This duty survives termination for three years.
+
+During the term, Contractor will not provide substantially similar services to a direct competitor identified in an SOW without Company's written consent. For six (6) months after termination, Contractor will not directly solicit a Company client for whom Contractor performed Services. This restriction does not prevent Contractor from working for other clients.
+
+5. LIABILITY
+
+Contractor will indemnify Company against third-party claims to the extent caused by Contractor's gross negligence, willful misconduct, or infringement of a third party's intellectual property by Contractor's Work Product. Neither Party will be liable for indirect or consequential damages. Except for fraud, willful misconduct, or indemnification obligations, each Party's total liability will not exceed the fees paid or payable under the applicable SOW.
+
+6. GOVERNING LAW AND DISPUTES
+
+This Agreement is governed by Delaware law. The Parties will first try in good faith to resolve a dispute through direct discussion for thirty (30) days. If unresolved, either Party may bring a claim in the state or federal courts located in Wilmington, Delaware. Each Party will bear its own legal fees unless a court awards fees under applicable law.
+
+Company: Northgate Digital Partners LLC
+By: Marcus Hale, Managing Partner
+
+Contractor: Adaeze Okafor
+Signature: ____________________

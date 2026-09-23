@@ -1,0 +1,151 @@
+{
+  "isContract": true,
+  "contractTitle": "Northgate Digital contractor agreement",
+  "summary": "This agreement is heavily tilted toward the agency. The biggest problems are that you only get paid if the end client pays, the agency can end the deal instantly without paying for work you've done, and it takes ownership of your pre-existing tools and even side projects. Push back on payment, termination, and IP first.",
+  "findings": [
+    {
+      "category": "payment_terms",
+      "clauseText": "Contractor will perform any modified scope for the fees stated in the original SOW unless Company agrees otherwise in writing.",
+      "locationHint": "Section 1.2",
+      "riskLevel": "medium",
+      "riskExplanation": "The agency can expand the work whenever it likes, and you'd have to do the extra work for the original price unless it agrees to pay more.",
+      "whyItMatters": "Scope creep becomes free work for the agency.",
+      "suggestedRedline": "Any change to the scope of an SOW must be agreed in a written change order signed by both Parties, including any adjustment to fees and delivery dates. Contractor is not required to perform out-of-scope work until a change order is signed."
+    },
+    {
+      "category": "payment_terms",
+      "clauseText": "Company will pay undisputed invoices within ninety (90) days after Company has received payment in full from the end client for the work covered by the invoice.  If the end client does not pay Company for any reason, Company has no obligation to pay Contractor for the corresponding Services.",
+      "locationHint": "Section 2.2",
+      "riskLevel": "high",
+      "riskExplanation": "You only get paid after the agency's client pays the agency, and then up to 90 days later. If that client never pays, you never get paid, even though you did the work.",
+      "whyItMatters": "You carry the agency's collection risk and could work for months for nothing.",
+      "suggestedRedline": "Company will pay each undisputed invoice within thirty (30) days of receipt, regardless of whether Company has been paid by its client. Invoices not paid when due accrue interest at 1.5% per month."
+    },
+    {
+      "category": "payment_terms",
+      "clauseText": "Company may withhold or set off against any amount owed to Contractor any amount Company, in its sole discretion, believes Contractor owes Company",
+      "locationHint": "Section 2.3",
+      "riskLevel": "high",
+      "riskExplanation": "The agency can hold back your pay based only on its own belief that you owe it money, with no proof or agreement needed.",
+      "whyItMatters": "A disagreement could let the agency stop paying you entirely while it decides.",
+      "suggestedRedline": "Company may set off only amounts that Contractor has agreed in writing are owed, or that have been finally determined by a court or arbitrator. Company will notify Contractor in writing of any proposed set-off and the basis for it."
+    },
+    {
+      "category": "termination",
+      "clauseText": "Company may terminate this Agreement or any SOW at any time, for any reason or no reason, effective immediately upon notice to Contractor. Upon such termination, Company will have no further payment obligation to Contractor, including for Services performed but not yet invoiced as of the termination date.",
+      "locationHint": "Section 3.2",
+      "riskLevel": "high",
+      "riskExplanation": "The agency can end the contract instantly and skip paying for work you've already done but haven't invoiced yet.",
+      "whyItMatters": "You could lose up to a month of earned fees the day the agency decides to stop.",
+      "suggestedRedline": "Either Party may terminate this Agreement or any SOW for convenience on fourteen (14) days' written notice. On any termination, Company will pay Contractor for all Services performed through the termination date, plus a kill fee equal to 25% of the remaining fees under the terminated SOW."
+    },
+    {
+      "category": "termination",
+      "clauseText": "Contractor may terminate this Agreement upon sixty (60) days' prior written notice to Company, provided that Contractor completes all work in progress under any open SOW before the termination takes effect.",
+      "locationHint": "Section 3.3",
+      "riskLevel": "medium",
+      "riskExplanation": "You need to give 60 days' notice to leave, and you're stuck until every open project is finished, while the agency can leave instantly.",
+      "whyItMatters": "An open-ended SOW could keep you locked in far longer than 60 days.",
+      "suggestedRedline": "Either Party may terminate this Agreement on fourteen (14) days' written notice. Contractor will use reasonable efforts to hand over work in progress during the notice period, and Company will pay for all work performed through the termination date."
+    },
+    {
+      "category": "ip_ownership",
+      "clauseText": "All work product, deliverables, code, designs, documentation, inventions, and other materials created, conceived, or developed by Contractor during the term of this Agreement, whether or not related to the Services and whether or not created during working hours or using Company resources",
+      "locationHint": "Section 4.1",
+      "riskLevel": "high",
+      "riskExplanation": "The agency would own everything you create while the contract is active, including personal projects and work for other clients made on your own time and equipment.",
+      "whyItMatters": "A side project or open-source library you build on a weekend could legally belong to the agency.",
+      "suggestedRedline": "\"Work Product\" means the deliverables Contractor creates specifically for Company under an SOW. Work Product will be owned by Company upon Company's payment in full of the fees for that Work Product. Anything Contractor creates outside the Services is excluded."
+    },
+    {
+      "category": "ip_ownership",
+      "clauseText": "Contractor also assigns to Company all rights in any tools, libraries, frameworks, or other materials owned by Contractor before the Effective Date that are incorporated into any deliverable (“Pre-Existing Materials”).",
+      "locationHint": "Section 4.2",
+      "riskLevel": "high",
+      "riskExplanation": "If you use any of your own existing code or tools in a deliverable, you give up ownership of them entirely, not just the right to use them in this project.",
+      "whyItMatters": "You could lose the rights to reusable code you rely on for every other client.",
+      "suggestedRedline": "Contractor retains all rights in Pre-Existing Materials. Contractor grants Company a non-exclusive, perpetual, royalty-free license to use Pre-Existing Materials solely as incorporated into the deliverables."
+    },
+    {
+      "category": "ip_ownership",
+      "clauseText": "agrees not to display any Work Product in any portfolio, website, or other promotional material without Company's prior written consent.",
+      "locationHint": "Section 4.3",
+      "riskLevel": "medium",
+      "riskExplanation": "You can't show this work in your portfolio unless the agency gives written permission.",
+      "whyItMatters": "It becomes harder to prove your experience to future clients.",
+      "suggestedRedline": "Contractor may display non-confidential portions of the Work Product in Contractor's portfolio after the work is publicly released, without disclosing Company's or its clients' confidential information."
+    },
+    {
+      "category": "non_compete",
+      "clauseText": "During the term of this Agreement and for twenty-four (24) months after its termination, Contractor will not, directly or indirectly, provide software development or related services to any business that competes with Company anywhere in the world, or to any current or former client of Company, whether or not Contractor worked on that client's projects.",
+      "locationHint": "Section 6.1",
+      "riskLevel": "high",
+      "riskExplanation": "For two years after this ends, you couldn't do development work for any competing agency worldwide, or for any of the agency's clients, even ones you never worked with.",
+      "whyItMatters": "This could block you from a large part of your market for two years.",
+      "suggestedRedline": "For six (6) months after termination, Contractor will not directly solicit for competing services any Company client for whom Contractor personally performed Services under this Agreement. Nothing in this Agreement restricts Contractor from otherwise providing services to any person."
+    },
+    {
+      "category": "non_compete",
+      "clauseText": "Contractor will provide services exclusively to Company and will not accept other freelance or employment engagements without Company's prior written consent.",
+      "locationHint": "Section 6.2",
+      "riskLevel": "high",
+      "riskExplanation": "You couldn't take any other client or job while this contract is active, but the agency isn't promising you any minimum amount of work or pay.",
+      "whyItMatters": "The agency could give you no work and you still couldn't earn elsewhere.",
+      "suggestedRedline": "Contractor may provide services to other clients during the term, provided Contractor does not use Company's confidential information and meets the delivery dates in each SOW."
+    },
+    {
+      "category": "liability",
+      "clauseText": "Contractor will defend, indemnify, and hold harmless Company, its affiliates, clients, and their respective officers, members, and employees from and against any and all claims, losses, damages, liabilities, penalties, costs, and expenses (including attorneys' fees) arising out of or relating to the Services or this Agreement, regardless of whether such claims are caused in part by the negligence of Company or its clients.",
+      "locationHint": "Section 7.1",
+      "riskLevel": "high",
+      "riskExplanation": "You would have to cover the agency's and its clients' legal costs and losses for almost anything connected to the project, even when the agency or client was partly at fault.",
+      "whyItMatters": "One lawsuit over a client's product could cost you far more than you were ever paid.",
+      "suggestedRedline": "Contractor will indemnify Company against third-party claims to the extent caused by Contractor's gross negligence, willful misconduct, or infringement of a third party's intellectual property by deliverables Contractor created, excluding claims arising from materials or instructions provided by Company or its clients."
+    },
+    {
+      "category": "liability",
+      "clauseText": "Company's total liability under this Agreement will not exceed the fees paid to Contractor in the one (1) month preceding the claim. Contractor's liability under this Agreement is not limited.",
+      "locationHint": "Section 7.2",
+      "riskLevel": "high",
+      "riskExplanation": "The agency caps what it could ever owe you at one month of fees, while your own liability has no limit at all.",
+      "whyItMatters": "If things go wrong, you carry almost all of the financial risk.",
+      "suggestedRedline": "Except for a Party's indemnification obligations and willful misconduct, each Party's total liability under this Agreement will not exceed the total fees paid or payable to Contractor under the applicable SOW."
+    },
+    {
+      "category": "jurisdiction",
+      "clauseText": "Contractor waives any right to a jury trial and to participate in any class or collective action. Contractor will bear its own costs and fees and, if Company prevails, will reimburse Company's reasonable attorneys' fees and arbitration costs.",
+      "locationHint": "Section 9.2",
+      "riskLevel": "high",
+      "riskExplanation": "Disputes go to private arbitration in Delaware, and if you lose you pay the agency's legal fees, but if you win you still pay your own.",
+      "whyItMatters": "The fee risk makes it practically unaffordable to challenge unpaid invoices.",
+      "suggestedRedline": "In any dispute, the prevailing Party will be entitled to recover its reasonable attorneys' fees and costs. Either Party may bring a claim within the jurisdictional limit of small claims court in the Party's home county instead of arbitration."
+    },
+    {
+      "category": "jurisdiction",
+      "clauseText": "This Agreement is governed by the laws of the State of Delaware, without regard to its conflict-of-laws principles.",
+      "locationHint": "Section 9.1",
+      "riskLevel": "low",
+      "riskExplanation": "Delaware law applies to the contract. That's common for US companies, but it may not be where you live.",
+      "whyItMatters": "",
+      "suggestedRedline": "This Agreement is governed by the laws of the state in which Contractor resides."
+    },
+    {
+      "category": "termination",
+      "clauseText": "Company may amend this Agreement by posting an updated version or notifying Contractor by email; Contractor's continued performance of Services constitutes acceptance of the amendment.",
+      "locationHint": "Section 10.2",
+      "riskLevel": "medium",
+      "riskExplanation": "The agency can change the contract terms just by emailing you, and you accept the changes simply by continuing to work.",
+      "whyItMatters": "Terms you agreed to could be swapped out mid-project.",
+      "suggestedRedline": "This Agreement may be amended only by a written document signed by both Parties."
+    },
+    {
+      "category": "payment_terms",
+      "clauseText": "Company will pay a late fee of 5% per week on any invoice paid after its due date.",
+      "locationHint": "Section 2.5",
+      "riskLevel": "low",
+      "riskExplanation": "This quote does not exist in the contract and should be dropped by the verbatim check.",
+      "whyItMatters": "",
+      "suggestedRedline": "n/a"
+    }
+  ]
+}
