@@ -41,6 +41,13 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# internal planning docs
+/blueprint.md
+/design.md
+/ui-ux.md
+/plan.md
+/build-prompt.md
+
 # python
 __pycache__/
 *.pyc
