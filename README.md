@@ -6,7 +6,7 @@ Plain-language contract risk review for freelancers and independent contractors.
 
 Built for [LexHack 2026](https://lexhack-2026.devpost.com/).
 
-**[Live app](https://clauseguard-hack.vercel.app/)** · **[Demo video](https://x.com/dammygreene/status/2103079486631587993?s=20)**
+**[Live app](https://clauseguard-hack.vercel.app/)** · **[Demo video](https://youtu.be/Bt8mhW6XdXg)**
 
 ---
 
